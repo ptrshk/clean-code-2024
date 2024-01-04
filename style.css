@@ -14,10 +14,10 @@
   display: block;
   text-align: right;
 }
-.more-info-img {
+.more-info__img {
   width: 100%;
 }
-.more-info-link {
+.more-info__link {
   font-family: fantasy, cursive;
 }
 
@@ -36,8 +36,9 @@
   display: inline-block;
   flex-grow: 1;
 }
-.add-item-input-container {
+.add-item__input-container {
   display: flex;
+  margin: 20px 0 0 0;
 }
 #completed-tasks,
 #incompleted-tasks {
@@ -87,7 +88,7 @@
 }
 
 /* New Task */
-.add-item-input-container
+.add-item__input-container
 .text-input {
   width: 100%;
 }
