@@ -4,143 +4,143 @@
 }
 /* Basic Style */
 .body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 .more-info-container {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
 .more-info-container img {
-    width: 100%;
+  width: 100%;
 }
 .more-info-container .more-info-link {
-    font-family: fantasy, cursive;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.more-info-container { text-align: center;
-}
+  .more-info-container { text-align: center;
+  }
 }
 .main-container {
-    display: block;
-    width: 500px;
-    margin: 0 auto 0;
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
 }
 .task-label {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1
 }
 .add-item-input-container {
-    display: flex;
+  display: flex;
 }
 #completed-tasks, #incompleted-tasks {
-    margin:0;
-    padding: 0px;
+  margin:0;
+  padding: 0px;
 }
 .task-item {
   list-style:none;
 }
 .button {
-    background: none;
-    border: 0px;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
 }
 .button:hover {
-    color: #3a3A3a;
+  color: #3a3A3a;
 }
 /* Heading */
 .heading-3 {
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    margin: 0;
-    text-transform: uppercase;
-    display: block;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+  display: block;
 }
 .text-input {
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
 }
 .text-input:focus {
-    color: #333;
+  color: #333;
 }
 
 /* New Task */
 .add-task-label {
-    display: block;
-    margin: 0 0 20px;
+  display: block;
+  margin: 0 0 20px;
 }
 .add-item-input-container .text-input {
-    width: 100%;
+  width: 100%;
 }
 
 /* Task list */
 .task-item {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .task-item > * {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .task-item > .check-box {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 .task-item > .task-label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 100%;
 }
 .delete-img {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 .delete-img:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
 #completed-tasks .task-label {
-    text-decoration: line-through
-    color: #888;
+  text-decoration: line-through
+  color: #888;
 }
 
 /* Edit Task */
 .task-item .text-input {
-    display:none
+  display:none
 }
 
 .task-item.edit-mode .text-input {
-    display:inline-block;
-    width:100%
+  display:inline-block;
+  width:100%
 }
 
 .task-item.edit-mode .task-label {
-    display:none;
+  display:none;
 }
