@@ -26,7 +26,7 @@
     text-align: center;
   }
 }
-.main {
+.to-do-functionality {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -61,7 +61,7 @@
   color: #3a3A3a;
 }
 /* Heading */
-.heading-3 {
+.heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -77,8 +77,8 @@
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
